@@ -1,5 +1,18 @@
-.testText{
-    color:Blue;
+body{
+    background: #151D21;
+    background-image: url('../media/Images/bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+
+.top-image-bar{
+    display: block;
+    margin-left: auto;
+     margin-right: auto;
+    width: 35%;
 
 
 }
