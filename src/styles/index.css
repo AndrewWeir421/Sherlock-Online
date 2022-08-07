@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 body{
     background: #151D21;
     background-image: url('../media/Images/bg.png');
@@ -15,4 +17,59 @@ body{
     width: 35%;
 
 
+}
+
+.Form{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 500px;
+    background-color: #394246;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: 7px solid black;
+}
+
+h3{
+    font-family: 'Cormorant SC', serif;
+}
+
+.UsernameContainer{
+    display: block;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: auto;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.UsernameForm{
+    margin-left: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: 4px solid black;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 7px;
+}
+
+.submit_button:hover{
+    border: 7px solid black;
+
+
+}
+
+.submit_button{
+    transition-duration: 0.4s;
+    display: block;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 10px 20px;
+    font-size: 25px;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: greenyellow;
+    border: 7px solid greenyellow;
 }
