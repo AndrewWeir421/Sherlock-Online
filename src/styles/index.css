@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
 body{
     background: #151D21;
     background-image: url('../media/Images/bg.png');
@@ -45,7 +46,7 @@ h3{
     font-weight: 900;
 }
 
-.UsernameForm{
+#UsernameForm{
     margin-left: 10px;
     width: 300px;
     border-radius: 10px;
@@ -63,7 +64,7 @@ h3{
 .submit_button{
     transition-duration: 0.4s;
     display: block;
-    margin-top: 300px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px 20px 10px 20px;
@@ -72,4 +73,38 @@ h3{
     border-radius: 10px;
     background-color: greenyellow;
     border: 7px solid greenyellow;
+}
+
+.info-box{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    background-color: #555555;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: 7px solid black;
+
+
+}
+
+.info-text{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    font-weight: 900;
+
+}
+
+#Warning{
+    color: red;
+    font-family: 'Mouse Memoirs', sans-serif;
+    display: block;
+    padding-top: 30px;
+    padding-left: 45px;
+    padding-right: 10px;
+    font-weight: 300;
+    font-size: 40px;
 }
