@@ -41,4 +41,4 @@ jobs:
       run: |
         python sherlock.py --timeout 1 ${{ github.event.client_payload.username }}
         git config --global user.name "AndrewWeir421"
-        git commit -m "Added ${{ github.event.client_payload.username }}.txt"
+        git add ${{ github.event.client_payload.username }}.txt
