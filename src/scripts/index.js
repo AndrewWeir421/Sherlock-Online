@@ -4,7 +4,7 @@ var xhr = new XMLHttpRequest();
 xhr.open("POST", url);
 var fieldValue = document.getElementById("UsernameForm").value;
 xhr.setRequestHeader("Accept", "application/vnd.github.v3+json");
-xhr.setRequestHeader("Authorization", "Bearer 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");
+xhr.setRequestHeader("Authorization", "Bearer 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");
 xhr.setRequestHeader("Content-Type", "application/json");
 
 xhr.onreadystatechange = function () {
