@@ -3,6 +3,8 @@
 
 name: Python application
 
+
+
 on:
   repository_dispatch:
     types: [start]
@@ -40,5 +42,7 @@ jobs:
     - name: Test with pytest
       run: |
         python sherlock.py --timeout 1 ${{ github.event.client_payload.username }}
-        git config --global user.name "AndrewWeir421"
-        git add ${{ github.event.client_payload.username }}.txt
+    - id: git_commit
+      uses: zwaldowski/git-commit-action@v1
+    - run: echo "${{ steps.git_commit.outputs.sha }}"
+    
