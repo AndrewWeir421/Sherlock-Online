@@ -5,6 +5,7 @@ name: Python application
 
 on:
   repository_dispatch:
+    types: [start]
     
   push:
     branches: [ "main" ]
