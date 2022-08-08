@@ -2,10 +2,12 @@ https://www.7cups.com/@test1234
 https://www.9gag.com/u/test1234
 https://about.me/test1234
 https://independent.academia.edu/test1234
+https://airbit.com/test1234
 https://allmylinks.com/test1234
 https://anilist.co/user/test1234/
 https://developer.apple.com/forums/profile/test1234
 https://discussions.apple.com/profile/test1234
+https://archive.org/details/@test1234
 https://create.arduino.cc/projecthub/test1234
 https://ask.fm/test1234
 https://audiojungle.net/user/test1234
@@ -16,6 +18,7 @@ https://bezuzyteczna.pl/uzytkownicy/test1234
 https://www.bikemap.net/en/u/test1234/routes/created/
 https://binarysearch.io/@/test1234
 https://test1234.blogspot.com
+https://bodyspace.bodybuilding.com/test1234
 https://www.bookcrossing.com/mybookshelf/test1234/
 https://buzzfeed.com/test1234
 https://www.cnet.com/profiles/test1234/
@@ -31,9 +34,11 @@ https://www.codechef.com/users/test1234
 https://www.codewars.com/users/test1234
 https://test1234.contently.com/
 https://crowdin.com/profile/test1234
+https://test1234.deviantart.com
 https://www.discogs.com/user/test1234
 https://disqus.com/test1234
 https://dribbble.com/test1234
+https://www.duolingo.com/profile/test1234
 https://www.eyeem.com/u/test1234
 https://f3.cool/test1234/
 https://www.facebook.com/test1234
@@ -41,9 +46,11 @@ https://fameswap.com/user/test1234
 https://www.finanzfrage.net/nutzer/test1234
 https://www.fiverr.com/test1234
 https://www.flickr.com/people/test1234
+https://my.flightradar24.com/test1234
 https://fortnitetracker.com/profile/all/test1234
 https://www.freelancer.com/u/test1234
 https://freesound.org/people/test1234/
+https://www.g2g.com/test1234
 https://www.gaiaonline.com/profiles/test1234
 https://giphy.com/test1234
 https://github.community/u/test1234/summary
@@ -60,18 +67,17 @@ https://hubski.com/user/test1234
 https://icq.im/test1234/en
 https://www.ifttt.com/p/test1234
 https://imgur.com/user/test1234
-https://www.instagram.com/test1234
 https://www.instructables.com/member/test1234
 https://issuu.com/test1234
 https://test1234.itch.io/
 https://www.keakr.com/en/profile/test1234
 https://www.kaggle.com/test1234
 https://kik.me/test1234
-https://www.kongregate.com/accounts/test1234
 https://launchpad.net/~test1234
 https://leetcode.com/test1234
 https://letterboxd.com/test1234
 https://lichess.org/@/test1234
+https://linktr.ee/test1234
 https://mapify.travel/test1234
 https://medium.com/@test1234
 https://www.memrise.com/user/test1234/
@@ -81,7 +87,6 @@ https://www.myminifactory.com/users/test1234
 https://myspace.com/test1234
 https://www.native-instruments.com/forum/members?username=test1234
 https://nationstates.net/region=test1234
-https://blog.naver.com/test1234
 https://www.needrom.com/author/test1234/
 https://test1234.newgrounds.com
 https://ok.ru/test1234
@@ -94,6 +99,7 @@ https://pornhub.com/users/test1234
 https://www.producthunt.com/@test1234
 https://quizlet.com/test1234
 https://test1234.rajce.idnes.cz/
+https://rateyourmusic.com/~test1234
 https://www.redbubble.com/people/test1234
 https://www.reddit.com/user/test1234
 https://replit.com/@test1234
@@ -120,6 +126,7 @@ https://tenor.com/users/test1234
 https://themeforest.net/user/test1234
 https://www.gotinder.com/@test1234
 https://www.tradingview.com/u/test1234/
+https://www.trakt.tv/users/test1234
 https://tryhackme.com/p/test1234
 https://www.twitch.tv/test1234
 https://twitter.com/test1234
@@ -137,7 +144,6 @@ https://en.wikipedia.org/wiki/Special:CentralAuth/test1234?uselang=qqx
 https://community.windy.com/user/test1234
 https://test1234.wordpress.com/
 https://profiles.wordpress.org/test1234/
-https://www.wordnik.com/users/test1234
 https://www.wykop.pl/ludzie/test1234
 https://xvideos.com/profiles/test1234
 https://www.younow.com/test1234/
@@ -176,4 +182,4 @@ https://pikabu.ru/@test1234
 https://test1234.skyrock.com/
 https://xhamster.com/users/test1234
 https://www.furaffinity.net/user/test1234
-Total Websites Username Detected On : 178
+Total Websites Username Detected On : 184
