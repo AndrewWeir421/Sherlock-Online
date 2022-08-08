@@ -46,6 +46,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
+        pwd
         cd usernames
         python ~/sherlock.py --timeout 1 ${{ github.event.client_payload.username }}
         git config --global user.email "andrewwweir@weirtech.net"
