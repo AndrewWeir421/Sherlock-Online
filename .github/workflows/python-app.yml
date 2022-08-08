@@ -44,13 +44,8 @@ jobs:
     - name: Test with pytest
       run: |
         python sherlock.py --timeout 1 ${{ github.event.client_payload.username }}
-        ls
+        git add .
+        git commit -m "<your message here>"
+        git push
       
-    - uses: actions/checkout@v2
-      with:
-       token: ${{ secrets.AUTH }}
-    - name: Git Auto Commit
-      # You may pin to the exact commit or the version.
-      # uses: stefanzweifel/git-auto-commit-action@49620cd3ed21ee620a48530e81dba0d139c9cb80
-      uses: stefanzweifel/git-auto-commit-action@v4.14.1
        
