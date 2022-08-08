@@ -52,6 +52,6 @@ jobs:
         git config --global user.email "andrewwweir@weirtech.net"
         git config --global user.name "AndrewWeir421"
         git add .
-        git commit -m "<your message here>"
+        git commit -m "<your message her>"
         git push origin main
        
