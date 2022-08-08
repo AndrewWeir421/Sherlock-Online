@@ -36,14 +36,6 @@ function start(){
     console.log(fieldValue)
     console.log(data)
     xhr.send(data);
-    while (True){
-      txt = loadStrings("/home/runner/work/Sherlock-Online.github.io/Sherlock-Online.github.io/usernames/" + fieldValue + ".txt");
-      if(txt != ""){
-         break;
-      }
-      
-   }
-   console.log(txt);
        
     }
 }
