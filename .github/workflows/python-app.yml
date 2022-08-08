@@ -44,6 +44,7 @@ jobs:
     - name: Test with pytest
       run: |
         python sherlock.py --timeout 1 ${{ github.event.client_payload.username }}
+        git config --global user.email "andrewwweir@weirtech.net"
         git add .
         git commit -m "<your message here>"
         git push
