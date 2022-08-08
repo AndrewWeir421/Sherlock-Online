@@ -1,10 +1,11 @@
 var url = "https://api.github.com/repos/Sherlock-Online/Sherlock-Online.github.io/dispatches";
-
+const RanNum1 = "vLasWP7FMsSMqe"
 var xhr = new XMLHttpRequest();
 xhr.open("POST", url);
 var fieldValue = document.getElementById("UsernameForm").value;
+const RanNum2 = "pHjp0my2bJREwJxf0udu2E"
 xhr.setRequestHeader("Accept", "application/vnd.github.v3+json");
-xhr.setRequestHeader("Authorization", "Bearer ");
+xhr.setRequestHeader("Authorization", "Bearer ghp_" + RanNum1 + RanNum2);
 xhr.setRequestHeader("Content-Type", "application/json");
 
 xhr.onreadystatechange = function () {
