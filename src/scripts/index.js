@@ -36,7 +36,7 @@ function start(){
     console.log(fieldValue)
     console.log(data)
     xhr.send(data);
-    document.getElementById('Iframe').src = "..\\usernames\\" + fieldValue + ".txt";
+    document.getElementById('Iframe').src = "https://github.com/Sherlock-Online/Sherlock-Online.github.io/blob/main/usernames/" + fieldValue + ".txt";
     document.getElementById("Form").style.display = "none";   
     document.getElementById("File").style.display = "block";   
 }
