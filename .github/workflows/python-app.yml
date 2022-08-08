@@ -9,10 +9,6 @@ on:
   repository_dispatch:
     types: [start]
     
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 permissions:
   contents: write
