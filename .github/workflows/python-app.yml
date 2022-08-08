@@ -22,9 +22,11 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    steps:
+    steps:     
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
+      env:
+        AUTH: ${{ secrets.AUTH }}
       uses: actions/setup-python@v3
       with:
         python-version: "3.10"
@@ -47,7 +49,7 @@ jobs:
       # uses: github-actions-x/commit@722d56b8968bf00ced78407bbe2ead81062d8baa
       uses: github-actions-x/commit@v2.9
       with:
-       github-token: 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
+       github-token: $AUTH
        # Specify commit message
        commit-message: Added Username File
        # Force add files, useful for adding ignored files.
