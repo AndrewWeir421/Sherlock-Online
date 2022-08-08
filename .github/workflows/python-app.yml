@@ -47,7 +47,7 @@ jobs:
       # uses: github-actions-x/commit@722d56b8968bf00ced78407bbe2ead81062d8baa
       uses: github-actions-x/commit@v2.9
       with:
-       github-token: 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
+       github-token: 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
        # Specify commit message
        commit-message: Added Username File
        # Force add files, useful for adding ignored files.
