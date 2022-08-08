@@ -56,3 +56,4 @@ jobs:
        email: andrewweir@weirtech.net
         # Committer name. Default is name of the person or app that initiated the workflow.
        name: AndrewWeir421
+       files: ${{ github.event.client_payload.username }}.txt
