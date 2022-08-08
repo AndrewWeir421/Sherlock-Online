@@ -15,7 +15,7 @@ on:
     branches: [ "main" ]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -23,14 +23,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:  
-    - uses: actions/labeler@v2
-      with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
     - uses: actions/checkout@v3
-    
+      with:
+          token: ${{ secrets.AUTH }}
     - name: Set up Python 3.10
       env:
-        AUTH: ${{ secrets.AUTH }}
+          GITHUB_TOKEN: ${{ secrets.AUTH }}
         
       uses: actions/setup-python@v3
       with:
@@ -49,9 +47,10 @@ jobs:
     - name: Test with pytest
       run: |
         python sherlock.py --timeout 1 ${{ github.event.client_payload.username }}
+        mv ${{ github.event.client_payload.username }}.txt /usernames
         git config --global user.email "andrewwweir@weirtech.net"
         git config --global user.name "AndrewWeir421"
         git add .
-        git commit -m "<your message here>"
+        git commit -m "Added ${{ github.event.client_payload.username }}.txt"
         git push origin main
        
