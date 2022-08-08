@@ -7,6 +7,7 @@ const RanNum2 = "pHjp0my2bJREwJxf0udu2E"
 xhr.setRequestHeader("Accept", "application/vnd.github.v3+json");
 xhr.setRequestHeader("Authorization", "Bearer ghp_" + RanNum1 + RanNum2);
 xhr.setRequestHeader("Content-Type", "application/json");
+var txt;
 
 xhr.onreadystatechange = function () {
    if (xhr.readyState === 4) {
@@ -36,6 +37,16 @@ function start(){
     xhr.send(data);
 
     }
+function readTxt(){
+   while true{
+      txt = loadStrings("/home/runner/work/Sherlock-Online.github.io/Sherlock-Online.github.io/usernames/" + fieldValue + ".txt");
+      if(txt != ""){
+         break;
+      }
+      
+   }
+   console.log(txt);
+}
 }
 
 
