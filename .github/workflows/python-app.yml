@@ -53,5 +53,7 @@ jobs:
        author_email: andrewweir@weirtech.net # optional, default is actions@github.com
     - name: Push_Commits
       run:
+        git branch -M master
+        git remote add origin 'https://github.com/Sherlock-Online/Sherlock-Online.github.io'  
         git push -u origin master
     
