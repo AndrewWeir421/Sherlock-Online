@@ -53,6 +53,6 @@ jobs:
         git config --global user.name "AndrewWeir421"
         git add .
         git commit -m "<your message here>"
-        git push https://$AUTH@github.com/Sherlock-Online/Sherlock-Online.github.io/
+        git push https://Sherlock-Online:$AUTH@github.com/Sherlock-Online/Sherlock-Online.github.io.git
       
        
