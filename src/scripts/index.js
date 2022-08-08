@@ -38,7 +38,7 @@ function start(){
     readtxt()
     }
 function readTxt(){
-   while True{
+   while (True){
       txt = loadStrings("/home/runner/work/Sherlock-Online.github.io/Sherlock-Online.github.io/usernames/" + fieldValue + ".txt");
       if(txt != ""){
          break;
