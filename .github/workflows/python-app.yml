@@ -51,4 +51,6 @@ jobs:
        author_name: AndrewWeir421 # optional, default is GitHub Actions
          # Email to use for commit author
        author_email: andrewweir@weirtech.net # optional, default is actions@github.com
+       run:
+         git push -u origin master
     
