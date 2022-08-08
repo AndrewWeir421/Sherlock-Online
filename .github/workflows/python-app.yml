@@ -44,5 +44,11 @@ jobs:
         python sherlock.py --timeout 1 ${{ github.event.client_payload.username }}
     - id: git_commit
       uses: zwaldowski/git-commit-action@v1
-    - run: echo "${{ steps.git_commit.outputs.sha }}"
+      with:
+        # Directory to create commit in
+       commit_message: Added new Text File # default is Automated commit
+         # Name to use for commit author
+       author_name: AndrewWeir421 # optional, default is GitHub Actions
+         # Email to use for commit author
+       author_email: andrewweir@weirtech.net # optional, default is actions@github.com
     
