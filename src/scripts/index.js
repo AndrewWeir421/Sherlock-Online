@@ -39,6 +39,9 @@ function start(){
     document.getElementById('Iframe').src = "..\\usernames\\" + fieldValue + ".txt";
     document.getElementById("Form").style.display = "none";   
     document.getElementById("File").style.display = "block";   
+    while(1 == 1){
+        document.getElementById('Iframe').contentWindow.location.reload()
+    }
     }
 }
 
