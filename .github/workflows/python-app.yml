@@ -22,11 +22,16 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    steps:     
+    steps:  
+    - uses: actions/labeler@v2
+      with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
     - uses: actions/checkout@v3
+    
     - name: Set up Python 3.10
       env:
         AUTH: ${{ secrets.AUTH }}
+        
       uses: actions/setup-python@v3
       with:
         python-version: "3.10"
