@@ -30,7 +30,6 @@ https://www.clubhouse.com/@abcd1234
 https://www.codecademy.com/profiles/abcd1234
 https://www.codewars.com/users/abcd1234
 https://crowdin.com/profile/abcd1234
-https://abcd1234.deviantart.com
 https://www.discogs.com/user/abcd1234
 https://disqus.com/abcd1234
 https://dribbble.com/abcd1234
@@ -63,6 +62,7 @@ https://www.gumroad.com/abcd1234
 https://gurushots.com/abcd1234/photos
 https://www.gutefrage.net/nutzer/abcd1234
 https://www.hexrpg.com/userinfo/abcd1234
+https://hackaday.io/abcd1234
 https://news.ycombinator.com/user?id=abcd1234
 https://hackerone.com/abcd1234
 https://hackerrank.com/abcd1234
@@ -79,6 +79,7 @@ https://www.keakr.com/en/profile/abcd1234
 https://keybase.io/abcd1234
 https://kik.me/abcd1234
 https://leetcode.com/abcd1234
+https://www.lesswrong.com/users/@abcd1234
 https://letterboxd.com/abcd1234
 https://lichess.org/@/abcd1234
 https://lolchess.gg/profile/na/abcd1234
@@ -90,7 +91,6 @@ https://www.munzee.com/m/abcd1234
 https://myanimelist.net/profile/abcd1234
 https://www.myminifactory.com/users/abcd1234
 https://myspace.com/abcd1234
-https://blog.naver.com/abcd1234
 https://www.needrom.com/author/abcd1234/
 https://abcd1234.newgrounds.com
 https://ninjakiwi.com/profile/abcd1234
@@ -98,6 +98,7 @@ https://nyaa.si/user/abcd1234
 https://ok.ru/abcd1234
 https://www.openstreetmap.org/user/abcd1234
 https://pastebin.com/u/abcd1234
+https://www.patreon.com/abcd1234
 https://www.periscope.tv/abcd1234/
 https://www.pinkbike.com/u/abcd1234/
 https://pokemonshowdown.com/users/abcd1234
@@ -110,10 +111,10 @@ https://abcd1234.rajce.idnes.cz/
 https://rateyourmusic.com/~abcd1234
 https://www.redbubble.com/people/abcd1234
 https://www.reddit.com/user/abcd1234
+https://replit.com/@abcd1234
 https://www.reverbnation.com/abcd1234
 https://www.roblox.com/user.aspx?username=abcd1234
 https://rubygems.org/profiles/abcd1234
-https://apps.runescape.com/runemetrics/app/overview/player/abcd1234
 https://www.scribd.com/abcd1234
 https://www.shpock.com/shop/abcd1234/items
 https://abcd1234.slack.com
@@ -163,6 +164,7 @@ https://xvideos.com/profiles/abcd1234
 https://www.younow.com/abcd1234/
 https://youporn.com/uservids/abcd1234
 https://aminoapps.com/u/abcd1234
+http://www.authorstream.com/abcd1234/
 https://www.babyblog.ru/user/abcd1234
 https://www.couchsurfing.com/people/abcd1234
 http://dating.ru/abcd1234
@@ -191,9 +193,10 @@ https://www.nairaland.com/abcd1234
 https://abcd1234.www.nn.ru/
 https://note.com/abcd1234
 https://www.npmjs.com/~abcd1234
+https://osu.ppy.sh/users/abcd1234
 https://pikabu.ru/@abcd1234
 https://abcd1234.skyrock.com/
 https://xhamster.com/users/abcd1234
 https://www.zoomit.ir/user/abcd1234
 https://www.furaffinity.net/user/abcd1234
-Total Websites Username Detected On : 198
+Total Websites Username Detected On : 201
