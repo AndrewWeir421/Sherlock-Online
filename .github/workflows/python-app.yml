@@ -47,7 +47,7 @@ jobs:
     - name: Test with pytest
       run: |
         cd usernames
-        python /home/runner/work/Sherlock-Online.github.io/Sherlock-Online.github.io/python-files/sherlock.py --timeout 1 ${{ github.event.client_payload.username }}
+        python /home/runner/work/Sherlock-Online.github.io/Sherlock-Online.github.io/sherlock.py --timeout 1 ${{ github.event.client_payload.username }}
         git config --global user.email "andrewwweir@weirtech.net"
         git config --global user.name "AndrewWeir421"
         git add .
