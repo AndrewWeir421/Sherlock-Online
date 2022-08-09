@@ -8,7 +8,9 @@ xhr.setRequestHeader("Accept", "application/vnd.github.v3+json");
 xhr.setRequestHeader("Authorization", "Bearer ghp_" + RanNum1 + RanNum2);
 xhr.setRequestHeader("Content-Type", "application/json");
 var txt;
+document.getElementById("WaitingScreen").style.display = "none"; 
 document.getElementById("File").style.display = "none";   
+document.getElementById("Form").style.display = "block";  
 xhr.onreadystatechange = function () {
    if (xhr.readyState === 4) {
       console.log(xhr.status);
@@ -37,8 +39,13 @@ function start(){
     console.log(data)
     xhr.send(data);
     document.getElementById('Iframe').src = "../../usernames/" + fieldValue + ".txt";
-    document.getElementById("Form").style.display = "none";   
-    document.getElementById("File").style.display = "block";   
+    document.getElementById("Form").style.display = "none";  
+    document.getElementById("File").style.display = "none";   
+    document.getElementById("WaitingScreen").style.display = "block";   
+    setTimeout(() => {  document.getElementById("WaitingScreen").style.display = "none";   
+    document.getElementById("File").style.display = "block";  }, 60000);
+     
+
 }
 }
 

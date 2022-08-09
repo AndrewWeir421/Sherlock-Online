@@ -34,6 +34,34 @@ body{
     border: 7px solid black;
 }
 
+#WaitText{
+    font-family: 'Cormorant SC', serif;
+    font-size: 35px;
+    position: absolute;
+    padding-left: 75px;
+}
+
+#WaitTime{
+    font-family: 'Cormorant SC', serif;
+    font-size: 35px;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 170px;
+}
+
+#WaitingScreen{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 500px;
+    background-color: #394246;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: 7px solid black;
+}
+
 
 .Form{
     display: block;
@@ -93,6 +121,21 @@ h3{
 .info-box{
     display: block;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    background-color: #555555;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: 7px solid black;
+
+
+}
+
+.info-wait-box{
+    display: block;
+    margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
     height: 300px;
